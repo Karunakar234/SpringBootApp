@@ -21,7 +21,10 @@ public class Application {
     public String home() {
         return "Hello Docker World";
     }
-
+  /**
+   * Run the spring boot container
+   * @param args
+   */
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
