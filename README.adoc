@@ -10,7 +10,7 @@ link:complete/src/main/java/hello/Application.java[]
 
 Steps to Execute the code:-
 
-1. Execute the command prompt mvn package && java -jar target/gs-spring-boot-docker-0.1.0.jar
+1. Execute the command prompt mvn package && java -jar target/SpringBootApp-0.1.0.jar
 2. Create Docker File in path src/main/docker/Dockerfile , docker jar configuration already added to Maven in pom.xml
 3. Build a docker image in build.gradle with a script. Please refer to code build.gradle file
 4. Run the docker image $ docker run -e "SPRING_PROFILES_ACTIVE=prod" -p 8080:8080 -t springio/gs-spring-boot-docker
