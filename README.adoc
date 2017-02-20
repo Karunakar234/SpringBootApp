@@ -38,7 +38,7 @@ Now you can create a simple application.
 `src/main/java/hello/Application.java`
 [source,java]
 ----
-include::complete/src/main/java/hello/Application.java[]
+include::complete/src/main/java/hello/Application.java[]  
 ----
     
 The class is flagged as a `@SpringBootApplication` and as a `@RestController`, meaning it's ready for use by Spring MVC to handle web requests. `@RequestMapping` maps `/` to the `home()` method which just sends a 'Hello World' response.  The `main()` method uses Spring Boot's `SpringApplication.run()` method to launch an application.
